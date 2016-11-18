@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GPS Automation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/my-style.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/myfunctions.js"></script>
+</head>
+<body onload="initLogSummary('init')">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row">
+					<div class="col-xs-3 text-left">
+						<img id="emerson_logo" alt="280x700" src="image/emerson_logo.gif"
+							class="img-rounded" />
+					</div>
+					<div class="col-xs-6 text-center">
+						<img id="emerson_GPS" alt="280x700" src="image/GPS.png"
+							class="img-rounded" />
+
+					</div>
+				</div>
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header column">
+						
+						<p class="navbar-brand" id="log_path">Log Path : Not Found</p>
+					</div>
+					
+				</nav>
+				<div class="container">
+					<blockquote id="log_list">
+						<p id="RunID">Run ID: 52543</p>
+						<hr></hr>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
